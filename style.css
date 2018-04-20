@@ -1,0 +1,99 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background: url(underwater.jpg) no-repeat center center fixed; 
+	background-size: cover;
+}
+
+body {
+	font-family: 'Quicksand', sans-serif;
+	height: 100%;
+}
+
+
+.nav-link {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	padding: 25px 15px;
+	color: #F7F9Fb;
+}
+
+a.nav-link:hover {
+	background-color: #8FC1E3;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #31708E;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+
+li {
+	float: right;
+
+}
+
+.image {
+	float: left;
+	width: 70px;
+	height: 70px;
+}
+
+.head {
+	float: left;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #31708E;
+  color: #F7F9Fb;
+  border-radius: 40%;
+}
+
+.title {
+	margin: 20px;
+	text-align: center;
+}
+
+.benefits {
+	position: absolute;
+	top: 100%;
+	height: 100%;
+	width: 100%;
+	background-color: #5085A5;
+	z-index: -1;
+}
+
+.benefits-title {
+	color: #F7F9Fb;
+	text-align: center;
+	margin: 70px;
+}
+
+.container {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+}
+
+.description {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+}
+
+#header-img {
+	width: 100%;
+}
