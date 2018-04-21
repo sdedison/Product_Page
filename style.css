@@ -3,16 +3,10 @@
 	padding: 0;
 }
 
-html {
-	background: url(underwater.jpg) no-repeat center center fixed; 
-	background-size: cover;
-}
-
 body {
 	font-family: 'Quicksand', sans-serif;
-	height: 100%;
+	color: #F7F9Fb;
 }
-
 
 .nav-link {
 	display: block;
@@ -58,8 +52,11 @@ li {
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #31708E;
-  color: #F7F9Fb;
   border-radius: 40%;
+}
+
+.desc {
+	flex: 1;
 }
 
 .title {
@@ -68,10 +65,8 @@ li {
 }
 
 .benefits {
-	position: absolute;
-	top: 100%;
-	height: 100%;
-	width: 100%;
+	padding-top: 7vh;
+	height: 100vh;
 	background-color: #5085A5;
 	z-index: -1;
 }
@@ -79,21 +74,34 @@ li {
 .benefits-title {
 	color: #F7F9Fb;
 	text-align: center;
-	margin: 70px;
 }
 
 .container {
+	margin-top: 10vh;
 	display: flex;
 	flex-flow: row nowrap;
-	justify-content: space-around;
+	justify-content: center;
+	align-items: center;
 }
 
 .description {
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: center;
+	height: 50vh;
+	flex: 0 1 50vw;
+}
+
+.sign-up {
+	flex: 0 1 50vw;
 }
 
 #header-img {
 	width: 100%;
+}
+
+#header {
+	background: url(underwater.jpg) no-repeat center center fixed; 
+	background-size: cover;
+	height: 100vh;
 }
