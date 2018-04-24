@@ -10,13 +10,13 @@
 <body>
 	<header id="header"> 
 		<nav id="nav-bar">
-			<ul>
+			<ul class="nav">
 				<li class="image"> <img id="header-img" src="EBrosLogo.png"> </li>
 				<li class="head"> <a href="" class="nav-link"> EBros </a> </li>
-				<li> <a href="" class="nav-link"> Recipes </a> </li>
-				<li> <a href="" class="nav-link"> Products </a> </li>
-				<li> <a href="" class="nav-link"> Benefits </a> </li>
-				<li> <a href="" class="nav-link"> Home </a> </li>
+				<li class="right"> <a href="" class="nav-link"> Recipes </a> </li>
+				<li class="right"> <a href="" class="nav-link"> Products </a> </li>
+				<li class="right"> <a href="" class="nav-link"> Benefits </a> </li>
+				<li class="right"> <a href="" class="nav-link"> Home </a> </li>
 			</ul>
 		</nav>
 	</header>
@@ -24,38 +24,75 @@
 	<main>
 		<div class="centered">
 			<h1 class="title"> Edison Brothers Fish Company </h1>
+			<h4 class="sub"> <em> Seafood Made Simple </em></h4>
 		</div>
 
 		<div class="benefits"> 
-			<h1 class="benefits-title"> ~ Pacific Coast Seafood Canned With Love ~ </h1>
+			
+			<h2 class="benefits-title"> ~ Pacific Coast Seafood Canned With Love ~ </h2>
+			
 			<div class="container">
-				<div class="description">
-					<div class="desc"> 
-						<i class="fas fa-heartbeat fa-5x"> </i>	
-						<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo dignissimos quis impedit voluptates, tenetur perspiciatis sunt excepturi tempore labore voluptatibus.</p>
-					</div>
-					<div class="desc"> 
-						<i class="fas fa-utensils fa-5x"></i>
-						<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo dignissimos quis impedit voluptates, tenetur perspiciatis sunt excepturi tempore labore voluptatibus.</p>
-					</div>
-					<div class="desc">
-						<i class="fas fa-recycle fa-5x"></i>
-						<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo dignissimos quis impedit voluptates, tenetur perspiciatis sunt excepturi tempore labore voluptatibus.</p>
-					</div>
-				</div>	
-				<div class="sign-up"> 
+				<div class="item heart"> 
+					<i class="fas fa-heartbeat fa-5x"></i>
+					<h3> Heart Healthy </h3>
+				</div>
+				<div class="item paleo">
+					<i class="fas fa-utensils fa-5x"></i>
+					<h3>Paleo and Keto Diet Friendly</h3>
+				</div>
+				<div class="item sustain"> 
+					<i class="fas fa-recycle fa-5x"></i>
+					<h3>Sustainably Caught</h3>
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="item-lg">
+					<p class="label"> To keep up to date with all things Ebros, all we need is your email address: </p>
+				</div>
+				<div class="item-sm">
 					<form>
-						<input type="email">
-						<input type="submit" name="Submit">
+						<input id="email" type="email" name="email">
+						<input id="submit" type="submit" name="Submit">
 					</form>
 				</div>
 			</div>
-		</div>	
+		</div>
+
+		<div class="products">
+			<h2 class="benefits-title"> ~ Our Selection ~ </h2>
+			<div class="container">
+				<div class="product-card">
+					<img src="seafoodIMG.jpeg" class="product-img">
+					<p class="prod-desc"> Variety pack:<br> $25 for 12 cans </p>
+					<button type="button" class="add-cart"> Add to Cart </button>
+				</div>
+				<div class="product-card">
+					<img src="seafoodIMG.jpeg" class="product-img">
+					<p class="prod-desc"> Tuna:<br> $20 for 12 cans </p>
+					<button type="button" class="add-cart"> Add to Cart </button>
+				</div>
+				<div class="product-card">
+					<img src="seafoodIMG.jpeg" class="product-img">
+					<p class="prod-desc"> Salmon:<br> $30 for 12 cans </p>
+					<button type="button" class="add-cart"> Add to Cart </button>
+				</div>
+				<div class="product-card">
+					<img src="seafoodIMG.jpeg" class="product-img">
+					<p class="prod-desc"> Shrimp:<br> $15 for 12 cans </p>
+					<button type="button" class="add-cart"> Add to Cart </button>
+				</div>
+			</div>
+		</div>
+
+		<div class="recipes">
+			<h2 class="benefits-title"> ~ Easy Meal Inspiration ~ </h2>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/aGLpBWGKkZ0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		</div>
 
 	</main>
 
 	<footer>
-		bow by Gregor Cresnar from the Noun Project
 	</footer>
 </body>
 </html>
