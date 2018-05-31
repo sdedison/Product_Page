@@ -138,26 +138,28 @@ a.nav-link:hover {
 	overflow: hidden;
 	padding-top: 50%;
 	margin: 7vh 5%;
-
 }
 
 #benefits {
-	padding: 5vh 0;
+	padding: 10vh 0;
 	background-color: #8FC1E3;
 	z-index: -1;
+	min-height: 40vh;
 }
 
 #products {
-	padding: 5vh 0;
+	padding: 10vh 0;
 	background-color: #5085A5;
 	z-index: -1;
+	min-height: 40vh;
 }
 
 #recipes {
-	padding: 5vh 0;
+	padding: 10vh 0;
 	background-color: #31708E;
 	z-index: -1;
 	text-align: center;
+	min-height: 40vh;
 }
 
 #email {
@@ -180,7 +182,7 @@ a.nav-link:hover {
 	width: 100%;
 }
 
-#header {
+#splashpage {
 	background: url(underwater.jpg) no-repeat center center fixed; 
 	background-size: cover;
 	height: 100vh;
